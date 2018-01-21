@@ -1,0 +1,25 @@
+main:
+  - title: "<i class='fa fa-home'></i>"
+    url: "/"
+  - title: "<i class='fas fa-phone-square'></i> shanehoey.com"
+    url: "https://shanehoey.com/"
+  - title: "<i class='fab fa-github'></i> github"
+    url: "https://github.com/shanehoey"
+
+sidebar:
+  - title: "jekyll_template_single"
+    children:
+      - title: "<i class='fa fa-home'></i> Home"
+        url: /
+  - title: About
+    children:
+      - title: "Contribute"
+        url: /contribute/
+      - title: "History"
+        url: /history/
+      - title: "License"
+        url: /license/
+      - title: "Disclaimer, Privacy, etc"
+        url: /disclaimer/
+      - title: "Credit & Thanks"
+        url: /credits/

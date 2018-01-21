@@ -1,0 +1,259 @@
+remote_theme             : "mmistakes/minimal-mistakes"
+
+minimal_mistakes_skin    : "air" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "en"
+title                    : "Skype User Acceptance Test"
+title_separator          : "|"
+name                     : "Shane Hoey"
+description              : "Skype for Business, User Acceptance Test"
+url                      : "https://shanehoey.github.io"
+baseurl                  : "/skypeuat"
+repository               : "shanehoey/skypeuat"
+teaser                   : "/assets/images/site/teaser.jpg"
+breadcrumbs              : false 
+words_per_minute         : 200
+comments:
+  provider               :  false 
+  disqus:
+    shortname            : 
+  discourse:
+    server               : 
+  facebook:
+    appid                :
+    num_posts            : 
+    colorscheme          : 
+staticman:
+  allowedFields          : 
+  branch                 : 
+  commitMessage          : 
+  filename               : 
+  format                 : 
+  moderation             : 
+  path                   : 
+  requiredFields         : 
+  transforms:
+    email                :
+  generatedFields:
+    date:
+      type               : 
+      options:
+        format           : 
+reCaptcha:
+  siteKey                :
+  secret                 :
+
+atom_feed:
+  path                   : 
+
+search                   : false
+search_full_content      : false
+
+# SEO Related
+google_site_verification :
+bing_site_verification   :
+yandex_site_verification :
+naver_site_verification  :
+
+# Social Sharing
+twitter:
+  username               : shanehoey
+facebook:
+  username               : hoeys
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/site/teaser.png"
+social:
+  type                   : Person
+  name                   : "Shane Hoey"
+  links: 
+   - "https://twitter.com/shanehoey"
+   - "https://facebook.com/hoeys"
+   - "https://linkedin.com/in/shanehoey"
+   - "https://shanehoey.com"
+
+# Analytics
+analytics:
+  provider               :  # false (default), "google", "google-universal", "custom"
+  google:
+    tracking_id          :
+
+# Site Author
+author:
+  name             : "Shane Hoey"
+  avatar           : "/assets/images/site/shane-hoey.jpg"
+  bio              : "Reinventing todays workspace with Modern Collaboration and Skype for Business"
+  location         : "Brisbane, Australia"
+  uri              : "https://shanehoey.com"
+  home             : "https://shanehoey.com"
+  facebook         : "hoeys"
+  github           : "shanehoey"
+  linkedin         : "shanehoey"
+  twitter          : "shanehoey"
+  youtube          : "hoeys"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - CHANGELOG
+  - config
+  - Gemfile
+  - LICENSE
+  - log
+  - README
+  - tmp
+keep_files:
+  - .git
+  - .svn
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Collections
+collections:
+  pages:
+    output: true
+    permalink: /:title/
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      sitemap: true
+    header:
+      overlay_color: "#5e616c"
+      overlay_image: /assets/images/site/unsplash-208114.jpg
+      overlay_filter: rgba(100, 100, 100, 0.5)
+      teaser: /assets/images/site/unsplash-208114.jpg
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: singlepage
+      excerpt: "Skype for Business User Acceptance Test Plan.  Determine that a Lync/Skype for Business deployment is working correctly.
+<br><br>
+<a class='btn btn--primary btn--small' href='https://gallery.technet.microsoft.com/Skype-for-Business-User-fb20ff12/'><i class='fas fa-download'></i>Download from Technet Gallery</a>
+<a class='btn btn--primary btn--small' href='https://www.github.com/shanehoey/skypeuat/'><i class='fab fa-github'></i> Download from Github</a>
+<a class='btn btn--primary btn--small' href='https://www.github.com/shanehoey/skypeuat/'><i class='fab fa-github'></i> View on Github</a>
+"
+      author_profile: false
+      read_time: false
+      comments: false
+      share: false
+      related: false
+      sitemap: true
+      sidebar:
+          nav: "sidebar"
+      header:
+        teaser: /assets/images/site/unsplash-208114.jpg
+        overlay_color: "#5e616c"
+        overlay_image: /assets/images/site/unsplash-208114.jpg
+        overlay_filter: rgba(100, 100, 100, 0.5)
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: /:title/
+#paginate: 5 # amount of posts to show
+#paginate_path: /page:num/
+timezone: Australia/Brisbane 
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-remote-theme
+  
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+# https://github.com/jekyll/jekyll-archives
+# jekyll-archives:
+#   enabled:
+#     - categories
+#     - tags
+#   layouts:
+#     category: archive-taxonomy
+#     tag: archive-taxonomy
+#   permalinks:
+#     category: /categories/:name/
+#     tag: /tags/:name/
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+#custom
+github:           '[www.github.com/shanehoey](https://www.github.com/shanehoey/skypeuat/)'
+gitpages:         '[shanehoey.github.io/jekyll_template](https://shanehoey.github.io/skypeuat/)'
+
+btn_paypal:       '[<i class="fab fa-paypal"></i> Show your Appreciation](https://www.paypal.me/shanehoey/){: .btn .bth--info .btn--small }'
+btn_github_watch: '[<i class="fas fa-eye"></i> Watch on Github](https://www.github.com/shanehoey/skypeuat/subscription/){: .btn .bth--info .btn--small }'
+btn_github_fork:  '[<i class="fas fa-code-branch"></i> Fork on Github](https://www.github.com/shanehoey/skypeuat/fork/){: .btn .bth--info .btn--small }'
+btn_github_star:  '[<i class="fas fa-star"></i> Star on Github](https://www.github.com/shanehoey/skypeuat/star/){: .btn .bth--info .btn--small }'
+btn_github:       '[<i class="fab fa-github"></i> View on Github](https://www.github.com/shanehoey/skypeuat/){: .btn .bth--info .btn--small }'
+
+btn_technetgallery:       '[<i class="fas fa-download"></i> view on technet gallery](https://gallery.technet.com){: .btn .bth--info .btn--small }'
+btn_powershellgallery:       '[<i class="fas fa-download"></i> view on PowerShell Gallery](https://powershellgallery.com/packages/){: .btn .bth--info .btn--small }'
