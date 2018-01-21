@@ -4,9 +4,9 @@ title: "Contribute"
 
 ## Contributing
 
-Having trouble working with the module? Interested in adding a feature or fixing a bug?
+Interested in adding a feature or fixing a bug to the "Skype User Acceptance Test"
 
-Why not [submit an issue]({{ site.github }}/issues/new) or create [a pull request]({{ site.github }}/pulls).
+Why not [submit an issue](issues/new/) or create [a pull request](pulls/).
 
 
 ## Pull Requests

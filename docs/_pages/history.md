@@ -4,7 +4,5 @@ title: "History"
 
 ## History
 
-| Version  | Date  | Details          |
-|:---------|:------|:-----------------|
-| 0        | 0     | 0                | 
+See latest version commits at [GitHub Commits](https://github.com/shanehoey/skypeuat/commits/master/SkypeUAT)
 
