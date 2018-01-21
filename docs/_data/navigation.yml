@@ -7,10 +7,15 @@ main:
     url: "https://github.com/shanehoey"
 
 sidebar:
-  - title: "jekyll_template_single"
+  - title: "Skype UAT"
     children:
       - title: "<i class='fa fa-home'></i> Home"
         url: /
+      - title: "<i class='faS fa-download'></i> Download Release from Technet Gallery "
+        url: https://gallery.technet.microsoft.com/Skype-for-Business-User-fb20ff12/
+      - title: "<i class='fa fa-home'></i> Download Development from githu"
+        url: https://github.com/shanehoey/skypeuat/tree/master/SkypeUAT
+
   - title: About
     children:
       - title: "Contribute"
