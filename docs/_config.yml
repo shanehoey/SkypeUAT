@@ -11,7 +11,7 @@ description              : "Skype for Business, User Acceptance Test"
 url                      : "https://shanehoey.github.io"
 baseurl                  : "/skypeuat"
 repository               : "shanehoey/skypeuat"
-teaser                   : "/assets/images/site/teaser.jpg"
+teaser                   : "/assets/images/capture2.png"
 breadcrumbs              : false 
 words_per_minute         : 200
 comments:
@@ -63,7 +63,7 @@ facebook:
   username               : hoeys
   app_id                 :
   publisher              :
-og_image                 : "/assets/images/site/teaser.png"
+og_image                 : "/assets/images/capture2.png""
 social:
   type                   : Person
   name                   : "Shane Hoey"
@@ -176,7 +176,7 @@ defaults:
       sidebar:
           nav: "sidebar"
       header:
-        teaser: /assets/images/site/unsplash-208114.jpg
+        teaser: /assets/images/capture2.png"
         overlay_color: "#5e616c"
         overlay_image: /assets/images/site/unsplash-208114.jpg
         overlay_filter: rgba(100, 100, 100, 0.5)
