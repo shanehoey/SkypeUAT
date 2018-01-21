@@ -161,6 +161,7 @@ defaults:
       type: pages
     values:
       layout: singlepage
+      title: "Skype User Acceptance Test"
       excerpt: "Skype for Business User Acceptance Test Plan.  Determine that a Lync/Skype for Business deployment is working correctly.
 <br><br>
 <a class='btn btn--primary btn--small' href='https://gallery.technet.microsoft.com/Skype-for-Business-User-fb20ff12/'><i class='fas fa-download'></i>Download from Technet Gallery</a>
