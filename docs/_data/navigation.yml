@@ -13,8 +13,8 @@ sidebar:
         url: /
       - title: "<i class='fas fa-download'></i> Download from Technet"
         url: https://gallery.technet.microsoft.com/Skype-for-Business-User-fb20ff12/
-      - title: "<i class='fas fa-download'></i> Download from GitHub"
-        url: https://github.com/shanehoey/skypeuat/tree/master/SkypeUAT
+      - title: "<i class='fab fa-github'></i> View on GitHub"
+        url: https://github.com/shanehoey/skypeuat/
 
   - title: About
     children:
